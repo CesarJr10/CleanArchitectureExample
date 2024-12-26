@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureExample.Application\CleanArchitectureExample.Application.csproj" />
+    <ProjectReference Include="..\CleanArchitectureExample.Core\CleanArchitectureExample.Core.csproj" />
+    <ProjectReference Include="..\CleanArchitectureExample.Infrastructure\CleanArchitectureExample.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
